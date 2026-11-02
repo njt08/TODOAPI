@@ -1,0 +1,31 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/njt08/TODOAPI#readme",
+  "bugs": {
+    "url": "https://github.com/njt08/TODOAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njt08/TODOAPI.git"
+  },
+  "license": "ISC",
+  "author": "NJT",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "migration": "node migrations/migration.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "moment": "^2.31.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.14"
+  }
+}
